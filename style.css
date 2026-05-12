@@ -38,3 +38,28 @@ button:hover {
 input[type="range"] {
   margin-top: 10px;
 }
+section {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #2980b9;
+}
+section img {
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 6px;
+}
