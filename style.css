@@ -106,3 +106,66 @@ input[type="range"] {
   margin-top: 10px;
 }
 >>>>>>> c93614aa86937a97c6ef2e0b3d941a785ca478f2
+/* General Page Styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #0077cc;
+}
+
+/* Media Player Sections */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Video and Audio Players */
+video, audio, iframe {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Controls Styling */
+button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background: #0077cc;
+  color: #fff;
+  border-radius: 8px;
+}

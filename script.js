@@ -1,17 +1,4 @@
 script.js
-// Select video and audio elements
-const video = document.querySelector("video");
-const audio = document.querySelector("audio");
-
-// Example: Alert when video starts playing
-video.addEventListener("play", () => {
-  alert("Video is now playing!");
-});
-
-// Example: Alert when audio ends
-audio.addEventListener("ended", () => {
-  alert("Audio has finished playing.");
-});
 // Video controls
 const video = document.getElementById("myVideo");
 document.getElementById("playVideo").addEventListener("click", () => video.play());
